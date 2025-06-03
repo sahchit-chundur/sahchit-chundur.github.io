@@ -1,6 +1,6 @@
 ---
 title: "Thermodynamic Context in Geophysical Interpretation at the Rainbow Hydrothermal Field, MAR"
-excerpt:
+excerpt: "Short project on the intersection of chemical thermodynamics and geophysical interpretation"
 collection: portfolio
 ---
 
