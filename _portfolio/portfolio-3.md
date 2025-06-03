@@ -1,7 +1,8 @@
+---
 title: "Thermodynamic Context in Geophysical Interpretation at the Rainbow Hydrothermal Field, MAR"
 excerpt:
 collection: portfolio
-
+---
 ## Thermodynamic Context in Geophysical Interpretation at the Rainbow Hydrothermal Field, MAR
 
 Around a month ago, I read a journal paper in Nature ([*Hydrothermal flow and serpentinization in oceanic core complexes controlled by mafic intrusions*](https://www.nature.com/articles/s41561-024-01444-y?fromPaywallRec=false)*)* on a seismic investigation of fluid flow and alteration at the ultramafic hosted Rainbow Hydrothermal Field on the Mid-Atlantic Ridge. The study developed seismic velocity models of the oceanic core complex and utilized effective medium theory to calculate estimates for degree of serpentinization and porosity of the study area. The authors identified low Vp channels that serve as high permeability upflow zones towards the seafloor hydrothermal field, as well as large mafic intrusive bodies that, through rheological contrast with the surrounding serpentinized peridotite that promotes fracture nucleation, control the path of upflowing hydrothermal fluid. The authors also concluded that based on the low degree of serpentinization beneath the largest mafic intrusion, the intrusion served as a barrier to fluid downflow, thereby limiting serpentinization.
