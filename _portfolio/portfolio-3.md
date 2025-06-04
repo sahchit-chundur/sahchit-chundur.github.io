@@ -18,14 +18,14 @@ Overall the paper was very well written and explained, however I took some issue
 As a preface, the following process is more a proof of concept for a method rather than a numerically accurate and definitive answer for interpretation of this seismic data, as we will have to make many assumptions through the process. Firstly, the solutions for degree of serpentinization from seismic velocity are non-unique, as noted in the paper, due to contributions from both chemical alteration and porosity. However, the most uncertain assumption is the geotherm. The actual geotherm is likely complex and both laterally and vertically heterogeneous, due to hydrothermal convection and intrusions of magmatic bodies. However, since we don’t have any additional information on temperature conditions, we must assume a linear geotherm. The seafloor line delineated by bathymetry can be assumed to be at thermal equilibrium with deep seawater (\~0℃). The temperature at depth is more challenging to ascertain. The hydrothermal fluid exits the vents at \~360℃, and geochemical studies indicate the fluid loses \~24-30% of its heat content while traveling to the seafloor, estimating the source temperature to be 430-470℃ \[[1](https://www.sciencedirect.com/science/article/abs/pii/S0012821X24004953)\]. However, previous seismic studies have imaged numerous magmatic sills that have intruded into the oceanic core complex and are thought to be the primary drivers of hydrothermal circulation, but likely do not directly influence the overall geotherm of the ultramafic body \[[2](https://pubs.geoscienceworld.org/gsa/geology/article-abstract/45/5/451/207914/Seismic-imaging-of-magma-sills-beneath-an)\]. Thus, I decided to delineate the bottom geotherm temperature based on the beginning of the “high Vp” zone, somewhat arbitrarily at 7.0 km/s, using interpolation and smoothing to create the line. A high velocity zone would correspond to the temperature where olivine is fully stable (400℃), thus it is unable to be serpentinized and retains its higher density, and therefore higher seismic velocity. Between these two horizontal contours, we establish a linear geotherm between 0 and 400℃.
 
 <p align="center">
- <img src=https://github.com/user-attachments/assets/7ac8e370-acdf-45e5-8535-39a61efc2b49>
+ <img src='/images/vp.png'>
 </p>
 <p align="center">
 <i>Image of Vp of the Rainbow massif, data from Jian et al. (2024)</i>
 </p>
 
 <p align="center">
-<img src=https://github.com/user-attachments/assets/e6e5a559-83f0-48a5-af17-a97cbd8f48e0>
+<img src='/images/temp_gradient.png'>
 </p>
 <p align="center">
 <i>Calculated linear temperature gradient, Dotted line delineates the high Vp zone. Original data from Jian et al. (2024) </i>
@@ -34,7 +34,7 @@ As a preface, the following process is more a proof of concept for a method rath
 After establishing the temperature distribution, we can apply thermodynamic modeling to calculate the equilibrium degree of serpentinization at every temperature. McCollom & Bach (2009) calculated the predicted equilibrium mineralogy of 1000g of harzburgite at a water:rock ratio of 1\. I recreated a simplified piecewise equation to represent the relationship between temperature and equilibrium degree of serpentinization (equal to 1- (mass original mineral remaining)/(mass original mineral)), shown below.
 
 <p align="center">
-<img src = https://github.com/user-attachments/assets/bebb5313-c0e9-478a-9f28-0fc7a841ea41>
+<img src = '/images/thermo_piecewise.png'>
 </p>
 <p align="center">
 <i>Left: Equilibrium calculation of 1000g harzburgite at water:rock ratio of 1 at different temperatures, from McCollom & Bach (2009). Right: Simplified piecewise equation used to calculated equilibrium degree of serpentinization </i>
@@ -43,7 +43,7 @@ After establishing the temperature distribution, we can apply thermodynamic mode
 Applying the piecewise equation to the calculated temperature distribution gives the estimated maximum alteration at each point, which can be compared to the original calculation of degree of serpentinization from seismic velocity to get the thermodynamic degree of alteration((seismic derived degree serpentinization)/(calculated maximum degree of alteration)).
 
 <p align="center">
-<img src =https://github.com/user-attachments/assets/84988336-d735-466f-9480-249cb9ab8f7a>
+<img src ='/images/alteration_img.png'>
 </p>
 <p align="center">
 <i>Calculated degree of alteration in agreement with thermodynamic equilibrium, based on the assumed thermal gradient. The two large white bodies in the centre are mafic intrusions identified by Vp/Vs from local earthquake tomography. The blue dotted line delineates the high Vp zone.</i>
