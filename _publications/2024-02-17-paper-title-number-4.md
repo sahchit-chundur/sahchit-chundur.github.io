@@ -1,5 +1,5 @@
 ---
-title: "Blue Carbon Stock Estimation of US Coastal Marshes from New York to Georgia. How Much Do We Have to Lose?
+title: "Blue Carbon Stock Estimation of US Coastal Marshes from New York to Georgia. How Much Do We Have to Lose?"
 collection: publications
 category: conferences
 permalink: /publication/2023-blue-carbon
