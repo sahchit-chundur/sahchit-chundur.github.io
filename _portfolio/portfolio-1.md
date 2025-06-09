@@ -31,7 +31,7 @@ As a preface, the following process is more a proof of concept for a method rath
 <i>Calculated linear temperature gradient, Dotted line delineates the high Vp zone. Original data from Jian et al. (2024) </i>
 </p>
 
-After establishing the temperature distribution, we can apply thermodynamic modeling to calculate the equilibrium degree of serpentinization at every temperature. McCollom & Bach (2009) calculated the predicted equilibrium mineralogy of 1000g of harzburgite at a water:rock ratio of 1 [4]. I recreated a simplified piecewise equation to represent the relationship between temperature and equilibrium degree of serpentinization (equal to 1- (mass original mineral remaining)/(mass original mineral)), shown below.
+After establishing the temperature distribution, we can apply thermodynamic modeling to calculate the equilibrium degree of serpentinization at every temperature. McCollom & Bach (2009) calculated the predicted equilibrium mineralogy of 1000g of harzburgite exposed to seawater at a water:rock ratio of 1 and pressure of 35 MPa [4]. I recreated a simplified piecewise equation to represent the relationship between temperature and equilibrium degree of serpentinization (equal to 1- (mass original mineral remaining)/(mass original mineral)), shown below.
 
 <p align="center">
 <img src = '/images/thermo_piecewise.png'>
