@@ -20,7 +20,7 @@ Work Experience
   * Analyzed data on geophysical monitoring plans, insurance mechanisms, and regulatory involvement for carbon storage project permits and visualized results using R and Power BI.
   * Interpreted and integrated well log and core data from 25 wells alongside data from literature review to construct a 3D static earth model of potential carbon storage site in the Mt Simon Sandstone in Indiana using Petrel.
   * Analyzed and visualized historical emissions data by sector in the Midwest region using R and ArcGIS, making recommendations for the applicability of carbon capture and storage in the region
-  * 
+
 * **Department of Earth and Environmental Engineering at Columbia University**- *Undergraduate Researcher (August 2022-May 2024)*
   * Worked on a project assessing the effect of formation water pH on carbon mineralization in basalt reservoirs and effects on permeability using geochemical software PHREEQC and reactive transport modeling. Presented work at AGU2023.
   * Modeled in situ recovery of critical minerals from hard rock deposits using geochemical and reactive transport modeling.
